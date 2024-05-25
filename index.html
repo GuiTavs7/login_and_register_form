@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Login & Registration</title>
+
+    <link rel="icon" type="image/png" sizes="32x32" href="./src/images/icons8-form-32.png">
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/style.css">
+    <link rel="stylesheet" href="./src/css/responsive.css">
+</head>
+
+<body>
+
+    <header>
+        <h2 class="logo">Logo</h2>
+        <button class="hamburguer"></button>
+        <nav class="navigation">
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Services</a>
+            <a href="#">Contact</a>
+            <button class="btnLogin-popup">Login</button>
+        </nav>
+    </header>
+
+    <div class="wrapper">
+
+        <span class="icon-close"><img class="close_btn" src="./src/images/close.png" alt="close"></span>
+
+        <div class="form-box login">
+
+            <h2>Login</h2>
+
+            <form action="#">
+    
+                <div class="input-box">
+                    <img src="./src/images/email.png" alt="user">
+                    <input type="email" required>
+                    <label for="email">Email</label>
+                </div>
+    
+                <div class="input-box">
+                    <img src="./src/images/lock.png" alt="password">
+                    <input type="password" required>
+                    <label for="password">Password</label>
+                </div>
+    
+                <div class="remember-forgot">
+                    <label><input type="checkbox">Remember me</label>
+                    <a href="#">Forgot password?</a>
+                </div>
+    
+                <button type="submit" class="btn">Login</button>
+    
+                <div class="login-register">
+                    <p>Don't have an account? <a href="#" class="register-link">Register</a></p>
+                </div>
+    
+            </form>
+
+        </div>
+
+        <div class="form-box register">
+
+            <h2>Registration</h2>
+
+            <form action="#">
+
+                <div class="input-box">
+                    <img src="./src/images/user.png" alt="user">
+                    <input type="text" required>
+                    <label for="text">Username</label>
+                </div>
+    
+                <div class="input-box">
+                    <img src="./src/images/email.png" alt="user">
+                    <input type="email" required>
+                    <label for="email">Email</label>
+                </div>
+    
+                <div class="input-box">
+                    <img src="./src/images/lock.png" alt="password">
+                    <input type="password" required>
+                    <label for="password">Password</label>
+                </div>
+    
+                <div class="remember-forgot">
+                    <label><input type="checkbox">I agree to the terms & conditions</label>
+                </div>
+    
+                <button type="submit" class="btn">Register</button>
+    
+                <div class="login-register">
+                    <p class="different">Already have an account? <a href="#" class="login-link">Login</a></p>
+                </div>
+    
+            </form>
+
+        </div>
+
+    </div>
+
+    <script type="text/javascript" src="./src/js/index.js"></script>
+
+</body>
+
+</html>
